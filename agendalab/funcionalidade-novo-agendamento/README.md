@@ -71,7 +71,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [003-nome-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/003-nome-obrigatorio.png)
+- **Evidência:** [003-nome-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/003-nome-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Nome do cliente é obrigatório.” exibida corretamente
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Telefone vazio
@@ -84,7 +84,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [004-telefone-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/004-telefone-obrigatorio.png)
+- **Evidência:** [004-telefone-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/004-telefone-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Telefone é obrigatório.” exibida corretamente
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Serviço vazio
@@ -97,7 +97,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [005-servico-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/005-servico-obrigatorio.png)
+- **Evidência:** [005-servico-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/images/005-servico-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Serviço é obrigatório.” exibida corretamente
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Profissional vazio
@@ -110,7 +110,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [006-profissional-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/006-profissional-obrigatorio.png)
+- **Evidência:** [006-profissional-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/006-profissional-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Profissional é obrigatório.” exibida corretamente
 
 **Cenário:** Tentar realizar Novo Agendamento com o campo Data vazio
@@ -123,7 +123,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [007-data-obrigatoria](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/007-data-obrigatoria.png)
+- **Evidência:** [007-data-obrigatoria](/agendalab/funcionalidade-novo-agendamento/images/007-data-obrigatoria.png)
 - **Resultado obtido:** Mensagem “Data é obrigatória.” exibida corretamente
 
 **Cenário:** Tentar realizar Novo Agendamento com o campo Horário vazio
@@ -136,7 +136,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [008-horario-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/008-horario-obrigatorio.png)
+- **Evidência:** [008-horario-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/008-horario-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Horário é obrigatório.” exibida corretamente
 
 #### 👤 Validações do campo Nome
@@ -151,7 +151,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
-- **Evidência:** [009-nome](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/009-nome.gif)
+- **Evidência:** [009-nome](/agendalab/funcionalidade-novo-agendamento/images/009-nome.gif)
 - **Resultado obtido:** Não foi exibida a mensagem mensagem “Nome do cliente é obrigatório.” e cadastrou o novo agendamento.
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo Nome somente com espaços
@@ -164,7 +164,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [010-nome](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/010-nome.gif)
+- **Evidência:** [010-nome](/agendalab/funcionalidade-novo-agendamento/images/010-nome.gif)
 - **Resultado obtido:** Foi exibida a mensagem “Nome do cliente é obrigatório.”.
 
 
@@ -180,7 +180,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
-- **Evidência:** [011-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/011-telefone.gif)
+- **Evidência:** [011-telefone](/agendalab/funcionalidade-novo-agendamento/images/011-telefone.gif)
 - **Resultado obtido:** Não foi exibida a mensagem mensagem “Formato do telefone incorreto”, cadastrou o novo agendamento com sucesso.
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo telefone apenas com espaços em branco
@@ -193,7 +193,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [012-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/012-telefone.gif)
+- **Evidência:** [012-telefone](/agendalab/funcionalidade-novo-agendamento/images/012-telefone.gif)
 - **Resultado obtido:** Ao preencher o campo telefone com apenas espaços e tentar realizar um novo agendamento a mensagem “Telefone é obrigatório.” é exibida corretamente.
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone apenas com um caractere
@@ -206,7 +206,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
-- **Evidência:** [013-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/013-telefone.gif)
+- **Evidência:** [013-telefone](/agendalab/funcionalidade-novo-agendamento/images/013-telefone.gif)
 - **Resultado obtido:** Ao preencher o campo telefone com um hífen e tentar realizar um novo agendamento não é exibida nenhuma mensagem de erro e o novo agendamento é cadastrado com sucesso.
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone com parenteses no meio dos números
@@ -219,7 +219,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
-- **Evidência:** [014-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/014-telefone.gif)
+- **Evidência:** [014-telefone](/agendalab/funcionalidade-novo-agendamento/images/014-telefone.gif)
 - **Resultado obtido:** Ao preencher o campo telefone com “(11) 9123)567(” não foi exibida a mensagem “Formato do telefone incorreto” e o agendamento foi cadastrado com sucesso. 
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone contendo números e letras
@@ -232,7 +232,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [015-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/015-telefone.gif)
+- **Evidência:** [015-telefone](/agendalab/funcionalidade-novo-agendamento/images/015-telefone.gif)
 - **Resultado obtido:** Ao preencher o campo telefone com “912345678abc” foi exibida corretamente a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone contendo caractere especial
@@ -245,7 +245,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [016-telefone](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/016-telefone.gif)
+- **Evidência:** [016-telefone](/agendalab/funcionalidade-novo-agendamento/images/016-telefone.gif)
 - **Resultado obtido:** Ao preencher o campo telefone com “(11) 91234-567#” foi exibida corretamente a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”
 
 #### 📝 Validações do Campo Observações
@@ -260,7 +260,7 @@ Senha: secret123
 **E** deve ser exibida a mensagem “Agendamento Confirmado! ****Seu agendamento foi criado com sucesso e está com status CONFIRMADO.”
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [017-observacoes](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/017-observacoes.gif)
+- **Evidência:** [017-observacoes](/agendalab/funcionalidade-novo-agendamento/images/017-observacoes.gif)
 - **Resultado obtido:** Ao preencher o campo Observações com um texto com 200 caracteres incluindo os espaços, o agendamento foi realizado com sucesso.
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo Observações com mais de 200 caracteres
@@ -272,7 +272,7 @@ Senha: secret123
 **Então** deve exibir a mensagem “Observação com mais de 200 caracteres”
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [018-observacoes](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/018-observacoes.gif)
+- **Evidência:** [018-observacoes](/agendalab/funcionalidade-novo-agendamento/images/018-observacoes.gif)
 - **Resultado obtido:** Ao tentar inserir uma observação com mais de 200 caracteres o campo limitou a quantidade para 200 caracteres e ignorou o restante do texto.
 
 #### 🗓️ Validações de Data (Passado e Domingo)
@@ -286,7 +286,7 @@ Senha: secret123
 **Então** deve exibir a mensagem “Não é possível agendar para uma data passada.”
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [019-data-passada](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/019-data-passada-ou-domingo.gif)
+- **Evidência:** [019-data-passada](/agendalab/funcionalidade-novo-agendamento/images/019-data-passada-ou-domingo.gif)
 - **Resultado obtido:** Ao tentar selecionar uma data passada foi exibida corretamente a mensagem “Não é possível agendar para uma data passada.”
 
 **Cenário:** Tentar um Novo Agendamento para um domingo
@@ -296,7 +296,7 @@ Senha: secret123
 **Então** deve exibir a mensagem “Domingos não são permitidos para agendamento.”
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [020-data-domingo](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/020-data-passada-ou-domingo.gif)
+- **Evidência:** [020-data-domingo](/agendalab/funcionalidade-novo-agendamento/images/020-data-passada-ou-domingo.gif)
 - **Resultado obtido:** Ao tentar selecionar uma data passada foi exibida corretamente a mensagem “Domingos não são permitidos para agendamento.”
 
 #### 🕒 Validações do Horário
@@ -309,7 +309,7 @@ Senha: secret123
 **Então** o sistema não deve permitir a seleção do horário inválido
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [021-horário-fora-da-grade-permitida](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/021-horario-fora-da-grade-permitida.gif)
+- **Evidência:** [021-horário-fora-da-grade-permitida](/agendalab/funcionalidade-novo-agendamento/images/021-horario-fora-da-grade-permitida.gif)
 - **Resultado obtido:** O sistema não permitiu selecionar ou inserir um um horário fora da grade permitida.
 
 **Cenário:** Tentar um Novo Agendamento com data e horário e para o mesmo profissional (mesmo profissional + data + horário CONFIRMADO)
@@ -322,7 +322,7 @@ Senha: secret123
 **Então** o horário deve aparecer da seguinte forma “10:00 - indisponível” e bloqueado para seleção.
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [022-data-horario-profissional-conflito](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/022-data-hora-profissonal-conflito.gif)
+- **Evidência:** [022-data-horario-profissional-conflito](/agendalab/funcionalidade-novo-agendamento/images/022-data-hora-profissonal-conflito.gif)
 - **Resultado obtido:** O sistema não permitiu criar um novo agendamento com o mesmo profissional, data e horário de um agendamento já confirmado.
 
 ## 🐞 Bug Report (Em construção 🚧)
