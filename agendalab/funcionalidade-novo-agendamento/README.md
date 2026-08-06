@@ -38,11 +38,11 @@ Senha: secret123
 ### ✅ Cenário de sucesso (Caminho feliz)
 **Cenário:** Realizar Novo Agendamento com sucesso
 
->**Dado** que usuário acessou a tela de Novo Agendamento
-**Quando** preenche os campos obrigatórios corretamente
-**E** clica no botão Confirmar Agendamento
-**Então** o agendamento deve ser criado com status “CONFIRMADO”
-**E** deve ser exibida a mensagem “Agendamento Confirmado! ****Seu agendamento foi criado com sucesso e está com status CONFIRMADO.”
+>**Dado** que usuário acessou a tela de Novo Agendamento\
+**Quando** preenche os campos obrigatórios corretamente\
+**E** clica no botão Confirmar Agendamento\
+**Então** o agendamento deve ser criado com status “CONFIRMADO”\
+**E** deve ser exibida a mensagem: “Agendamento Confirmado! Seu agendamento foi criado com sucesso e está com status CONFIRMADO.”
 
 - **Status:** ✅ Aprovado
 - **Evidência:** [001-agendamento-com-sucesso.gif](/agendalab/funcionalidade-novo-agendamento/images/001-agendamento-com-sucesso.gif)
@@ -52,9 +52,9 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento com todos os campos obrigatórios vazios
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -63,11 +63,11 @@ Senha: secret123
 
 **Cenário:** Tentativa de Novo Agendamento com o campo Nome vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Nome” está em branco
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Nome” está em branco\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -76,11 +76,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Telefone vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está em branco
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Telefone é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está em branco\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Telefone é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -89,11 +89,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Serviço vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Serviço” não foi selecionado
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Serviço é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Serviço” não foi selecionado\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Serviço é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -102,11 +102,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar um Novo Agendamento com o campo Profissional vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Profissional” não foi selecionado
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Profissional é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Profissional” não foi selecionado\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Profissional é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -115,11 +115,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento com o campo Data vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Data” está em branco
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Data é obrigatória.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Data” está em branco\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Data é obrigatória.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -128,11 +128,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento com o campo Horário vazio
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Horário” está em branco
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Horário é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Horário” está em branco\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Horário é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -143,11 +143,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo Nome somente com números
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Nome” está preenchido com “123”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Nome preenchido de forma incorreta”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Nome” está preenchido com “123”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Nome preenchido de forma incorreta”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
@@ -156,11 +156,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo Nome somente com espaços
 
-> **Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Nome” está preenchido com “   ”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Nome” está preenchido com “   ”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Nome do cliente é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -172,11 +172,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo telefone com apenas 5 dígitos
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “12345”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Formato do telefone incorreto”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “12345”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Formato do telefone incorreto”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
@@ -185,11 +185,11 @@ Senha: secret123
 
 **Cenário:** Tentar realizar Novo Agendamento preenchendo o campo telefone apenas com espaços em branco
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “   ”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Telefone é obrigatório.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “   ”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Telefone é obrigatório.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -198,11 +198,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone apenas com um caractere
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “-”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Formato do telefone incorreto”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “-”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Formato do telefone incorreto”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
@@ -211,11 +211,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone com parenteses no meio dos números
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “(11) 9123)567(”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Formato do telefone incorreto”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “(11) 9123)567(”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Formato do telefone incorreto”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ❌ Reprovado
@@ -224,11 +224,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone contendo números e letras
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “912345678abc”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “912345678abc”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -237,11 +237,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo telefone contendo caractere especial
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Telefone” está preenchido com “(11) 91234-567#”
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** deve exibir a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Telefone” está preenchido com “(11) 91234-567#”\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** deve exibir a mensagem “Telefone inválido. Use apenas números, parênteses, espaços e hífens.”\
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
@@ -252,11 +252,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo Observações com 200 caracteres
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Observação” é preenchido com 200 caracteres 
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
-**Então** o agendamento deve ser criado com status “CONFIRMADO”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Observação” é preenchido com 200 caracteres \
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
+**Então** o agendamento deve ser criado com status “CONFIRMADO”\
 **E** deve ser exibida a mensagem “Agendamento Confirmado! ****Seu agendamento foi criado com sucesso e está com status CONFIRMADO.”
 
 - **Status:** ✅ Aprovado
@@ -265,10 +265,10 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo Observações com mais de 200 caracteres
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Observação” é preenchido com mais 200 caracteres 
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Observação” é preenchido com mais 200 caracteres \
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
 **Então** deve exibir a mensagem “Observação com mais de 200 caracteres”
 
 - **Status:** ✅ Aprovado
@@ -279,10 +279,10 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento preenchendo o campo Data com uma data passada
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** campo “Data” é preenchido com uma data passada
-**E** os demais campos obrigatórios estão preenchidos
-**Quando** clica no botão “Confirmar Agendamento”
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** campo “Data” é preenchido com uma data passada\
+**E** os demais campos obrigatórios estão preenchidos\
+**Quando** clica no botão “Confirmar Agendamento”\
 **Então** deve exibir a mensagem “Não é possível agendar para uma data passada.”
 
 - **Status:** ✅ Aprovado
@@ -291,8 +291,8 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento para um domingo
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**Quando** campo “Data” é preenchido com “09/08/2026” (Domingo)
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**Quando** campo “Data” é preenchido com “09/08/2026” (Domingo)\
 **Então** deve exibir a mensagem “Domingos não são permitidos para agendamento.”
 
 - **Status:** ✅ Aprovado
@@ -303,9 +303,9 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento selecionando um horário fora da grade permitida
 
->**Dado** que o usuário acessou a tela de Novo Agendamento
-**E** a lista de horários disponíveis exibe apenas: 08h, 09h, 10h, 11h, 13h, 14h, 15h, 16h, 17h
-**Quando** o usuário tenta inserir ou selecionar um horário inválido, por exemplo: 07h, 12h ou 18h
+>**Dado** que o usuário acessou a tela de Novo Agendamento\
+**E** a lista de horários disponíveis exibe apenas: 08h, 09h, 10h, 11h, 13h, 14h, 15h, 16h, 17h\
+**Quando** o usuário tenta inserir ou selecionar um horário inválido, por exemplo: 07h, 12h ou 18h\
 **Então** o sistema não deve permitir a seleção do horário inválido
 
 - **Status:** ✅ Aprovado
@@ -314,11 +314,11 @@ Senha: secret123
 
 **Cenário:** Tentar um Novo Agendamento com data e horário e para o mesmo profissional (mesmo profissional + data + horário CONFIRMADO)
 
->**Dado** que já existe um agendamento com o profissional “Dra. Ana Souza” para o dia “10/08/2026” às “10h” com status CONFIRMADO
-**E** na tela de Novo Agendamento o usuário preenche o campo “Nome”, “Telefone” e “Serviço”
-**E** seleciona a mesma profissional “Dra. Ana Souza”
-**E** seleciona a mesma data “18/08/2026”
-**Quando** o usuário tenta selecionar o horário “10:00” 
+>**Dado** que já existe um agendamento com o profissional “Dra. Ana Souza” para o dia “10/08/2026” às “10h” com status CONFIRMADO\
+**E** na tela de Novo Agendamento o usuário preenche o campo “Nome”, “Telefone” e “Serviço”\
+**E** seleciona a mesma profissional “Dra. Ana Souza”\
+**E** seleciona a mesma data “18/08/2026”\
+**Quando** o usuário tenta selecionar o horário “10:00”\
 **Então** o horário deve aparecer da seguinte forma “10:00 - indisponível” e bloqueado para seleção.
 
 - **Status:** ✅ Aprovado
