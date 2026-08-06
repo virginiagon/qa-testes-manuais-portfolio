@@ -29,7 +29,7 @@ Senha: secret123
 
 ## Requisitos da funcionalidade Novo Agendamento
 
-![Requisitos da funcionalidade Novo Agendamento](agendalab/funcionalidade-novo-agendamento/images/requisitos-novo-agendamento.png)
+![Requisitos da funcionalidade Novo Agendamento](/agendalab/funcionalidade-novo-agendamento/images/requisitos-novo-agendamento.png)
 
 ## 📋 Cenários
 
