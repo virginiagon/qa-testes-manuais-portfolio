@@ -45,7 +45,7 @@ Senha: secret123
 **E** deve ser exibida a mensagem “Agendamento Confirmado! ****Seu agendamento foi criado com sucesso e está com status CONFIRMADO.”
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [001-agendamento-com-sucesso.gif](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/001-agendamento-com-sucesso.gif)
+- **Evidência:** [001-agendamento-com-sucesso.gif](/agendalab/funcionalidade-novo-agendamento/images/001-agendamento-com-sucesso.gif)
 - **Resultado obtido:** Agendamento realizado com sucesso.
 
 ### ❎ Cenários Alternativos e Negativos (Validações e Regras de Negócio)
@@ -58,7 +58,7 @@ Senha: secret123
 **E** o agendamento não deve ser criado
 
 - **Status:** ✅ Aprovado
-- **Evidência:** [002-nome-obrigatorio](/qa-testes-manuais-portfolio/agendalab/funcionalidade-novo-agendamento/images/002-nome-obrigatorio.png)
+- **Evidência:** [002-nome-obrigatorio](/agendalab/funcionalidade-novo-agendamento/images/002-nome-obrigatorio.png)
 - **Resultado obtido:** Mensagem “Nome do cliente é obrigatório.” corretamente
 
 **Cenário:** Tentativa de Novo Agendamento com o campo Nome vazio
