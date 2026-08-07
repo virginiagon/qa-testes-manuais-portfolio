@@ -20,11 +20,11 @@ Principais palavras-chaves:
 
 ## Dados dos testes
 
-**Data:** 05/08/2026
-**Navegador:** Chrome
+**Data:** 05/08/2026\
+**Navegador:** Chrome\
 **Ambiente:** https://agendalabqa.vercel.app/login
 
-Usuário: usuario_normal
+Usuário: usuario_normal\
 Senha: secret123
 
 ## Requisitos da funcionalidade Novo Agendamento
